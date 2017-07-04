@@ -3,8 +3,57 @@
 <head>
 	<meta charset="UTF-8">
 	<title>傻逼们都来点吧</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<style>
+		body{
+			padding: 20px;
+			margin: 0;
+		}
+		.shalu_iframe{
+			width: 100%;
+			height: 30px;
+		}
+		.shalu_person{
+			padding-left: 80px;
+			position: relative;
+		}
+		.shalu_person_name{
+			position: absolute;
+			left: 0;
+			width: 80px;
+		}
+	</style>
 </head>
 <body>
-	Hello World！
+<div id="ShaLu">
+
+</div>
+<script src="config.js"></script>
+<script>
+
+window.onload = function(){
+	var container = document.getElementById('ShaLu')
+
+	for ( var i = 0; i < ShaLuDatas.length; i ++ ){
+		var item = ShaLuDatas[i]
+		var personItem = document.createElement('div');
+		personItem.className = 'shalu_person'
+
+		var personName = document.createElement('span');
+		personName.className = 'shalu_person_name';
+		personName.innerHTML = item.name;
+
+		var iframe = document.createElement('iframe');
+		iframe.className='shalu_iframe';
+		iframe.frameBorder='0';
+		iframe.src=item.url;
+
+		personItem.appendChild( personName );
+		personItem.appendChild( iframe );
+
+		container.appendChild( personItem );
+	}
+}
+</script>
 </body>
 </html>
