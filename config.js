@@ -10,4 +10,7 @@ var ShaLuDatas = [{
 }, {
 	name: '麦兜',
 	url: 'http://share.jl.ztgame.com/1/6/d7d73568adae11e6bf2f5254006a74ca'
+}, {
+	name: '射手小号射手小号',
+	url: 'http://share.jl.ztgame.com/1/6/79adcd38bf6211e6aa1a5254006a74ca'
 }]
