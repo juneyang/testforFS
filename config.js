@@ -20,4 +20,13 @@ var ShaLuDatas = [{
 }, {
 	name: '曲阿',
 	uid: '52101ccaabd711e68ce95254006a74ca'
+}, {
+	name: '月光',
+	uid: '6fadc4d8c38f11e69bf35254006a74ca'
+}, {
+	name: '盛宴',
+	uid: '885943c2023c11e7a0135254006a74ca'
+}, {
+	name: '熙沫',
+	uid: 'bcd24b26e52711e6bec45254006a74ca'
 }]
