@@ -29,4 +29,7 @@ var ShaLuDatas = [{
 }, {
 	name: '熙沫',
 	uid: 'bcd24b26e52711e6bec45254006a74ca'
+}, {
+    name: '噩梦',
+    uid: '4f843c34cddd11e6892e5254006a74ca'
 }]
